@@ -1,0 +1,37 @@
+COMANDOS GIT  (windows \\ Linux)
+
+dir \\ ls > lista as pastas disponiveis
+
+cd > navega para uma pasta especifica // cd.. volta
+
+cls \\ clear > limpa o terminal
+
+mkdir > cria pastas
+
+echo > printa e pode mandar pra um arquivo
+
+del > deleta arquivos 
+
+rmdir \s \q  \\ rm -rf> remove diretorio
+
+passo-a-passo para criar o ssh e conectar com o github
+
+ssh-keygen -t ed25519 -c guilherme1002s@hotmail.com
+
+git init > começa um repositorio dentro da pasta
+
+git add > adiciona mudanças para area de staging
+
+git commit -m > commita para o repositorio local
+
+git status mostra as condições atuais
+
+mv "arquivo" ./receitas/ > move arquivo
+
+git remote add origin git@github.com:GuilhermeSantos-dev/livro-receitas.git
+
+git push origin master > linka o commit local com o remoto
+
+git pull origin master > "baixa" o commit atual do github
+
+git clone "url" > baixa um repositorio direto do github
